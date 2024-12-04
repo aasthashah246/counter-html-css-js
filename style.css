@@ -1,0 +1,13 @@
+#mydiv{
+    height:250px;
+    width: 600px;
+    background-image: linear-gradient(rgba(255, 118, 141, 0.595),rgba(255, 0, 217, 0.479));
+    border-radius: 35px;
+
+}
+#mylabel{
+    padding-top: 40px;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}

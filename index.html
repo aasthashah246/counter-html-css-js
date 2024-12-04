@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        .btn{
+            height: 50px;
+            width: 90px;
+            margin-top: 30px;
+            border-radius: 25px;
+            align-items: center;
+            border: 5px solid;
+            border-color: darkmagenta pink;
+            background-color: rgba(252, 48, 170, 0.686);
+            color: aliceblue;
+            background-image: linear-gradient();
+            
+           
+        }
+        .btn:hover{
+            background-color:white;
+            color: black;
+            border-color: rgb(149, 255, 0) rgb(0, 0, 0);
+            cursor:grab;
+        }
+        
+    </style>
+</head>
+<body > 
+    
+    <div id="mydiv" style=" margin: auto;"  >
+        <label   id="mylabel">00:00:00</label>
+        <div><button class="btn" style="margin-left: 170px;" id="start"><b>Start</b></button>
+        <button class="btn" id="pause"><b>Pause</b></button>
+        <button class="btn" id="restart"><b>Restart</b></button></div>
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
